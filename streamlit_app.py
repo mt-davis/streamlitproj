@@ -16,8 +16,8 @@ st.sidebar.write('COVID-19 Data for schools within the state of Connecitcut')
 st.sidebar.title('Navigation')
 
 add_selectbox = st.sidebar.selectbox(
-    "How would you like to be contacted?",
-    ("Email", "Home phone", "Mobile phone")
+    "Select County",
+    ("New Haven", "Hartford", "Middlesex", "Fairfield")
 )
 
 
