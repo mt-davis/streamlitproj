@@ -5,7 +5,11 @@ import numpy as np
 import pandas as pd
 import time
 
+df = pd.read_csv("./covid-19")
+
 st.title('My first app')
+
+st.write(df)
 
 # Sidebar
 st.sidebar.title('COVID-19 Data')
