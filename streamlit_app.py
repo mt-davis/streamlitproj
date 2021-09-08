@@ -14,7 +14,7 @@ st.sidebar.write('COVID-19 Data for schools within the state of Connecitcut')
 #Sidebar Navigation
 st.sidebar.title('Navigation')
 
-Add a selectbox to the sidebar:
+#Add a selectbox to the sidebar:
 add_selectbox = st.sidebar.selectbox(
     'How would you like to be contacted?',
     ('Email', 'Home phone', 'Mobile phone'
