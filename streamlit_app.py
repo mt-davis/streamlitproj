@@ -7,6 +7,11 @@ import time
 
 st.title('My first app')
 
+# Sidebar Options
+st.sidebar.title('COVID-19 Data')
+
+
+
 """
 Here's our first attempt at using data to create a table:
 """
