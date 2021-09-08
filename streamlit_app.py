@@ -4,8 +4,14 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import time
+import csv
+import request
 
-df = pd.read_csv("./covid-19")
+url = 'https://raw.githubusercontent.com/mt-davis/streamlitproj/789545c74b7111ce7481e52349e3294c157bcb7c/covid-19.csv'
+
+df = pd.read_csv(url)
+
+print(df.head())
 
 st.title('My first app')
 
