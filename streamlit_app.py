@@ -11,11 +11,6 @@ st.title('My first app')
 st.sidebar.title('COVID-19 Data')
 st.sidebar.write('COVID-19 Data for schools within the state of Connecitcut')
 
-#Add a selectbox to the sidebar:
-add_selectbox = st.sidebar.selectbox(
-    'How would you like to be contacted?',
-    ('Email', 'Home phone', 'Mobile phone'
-    )
 
 #Sidebar Navigation
 st.sidebar.title('Navigation')
